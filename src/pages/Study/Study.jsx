@@ -10,24 +10,31 @@ function Study() {
             <div className="col-study-4">
               <div className="single-horizontal-timeline">
                 <div className="experience-time">
-                  <h2>2012 - 2014</h2>
-                  <h3>Contrat d'apprentissage Boucherie</h3>
+                  <h2>2024</h2>
+                  <h3>BTS Développeur Web</h3>
                 </div>
                 <div className="timeline-horizontal-border">
                   <i className="fa fa-circle" aria-hidden="true"></i>
-                  <span className="single-timeline-horizontal"></span>
+                  <span className="single-timeline-horizontal spacial-horizontal-line"></span>
                 </div>
                 <div className="timeline">
                   <div className="timeline-content">
-                    <h4 className="title">CFA du Havre</h4>
+                    <h4 className="title">OpenClassroom</h4>
                     <h5>Normandie, France</h5>
                     <p className="description">
-                      Formation en alternance spécialisée dans la découpe, la
-                      transformation, et la préparation des viandes. Acquisition
-                      de compétences techniques en matière d’hygiène et sécurité
-                      alimentaire, ainsi qu’en service client. Expérience
-                      pratique en boucherie artisanale pendant toute la durée du
-                      contrat d'apprentissage.
+                      Formation spécialisée en développement web avec des
+                      compétences en front-end (HTML, CSS, JavaScript, React.js)
+                      et back-end (Node.js, Express, MongoDB, API Rest).
+                      Création de projets web interactifs et optimisés pour
+                      différents dispositifs. Acquisition de compétences en
+                      gestion de bases de données et intégration de solutions
+                      web dynamiques. Amélioration des performances d'un site,
+                      SEO, accessibilité. Apprentissage des méthodologies Agile,
+                      Scrum, Sprint et utilisation d'outils tels que Figma, Git,
+                      GitHub, Visual Studio Code, Wakelet, Notion, PowerPoint.
+                      Développement de mes soft skills : autonomie, résistance
+                      au stress, capacité d'adaptation, résolution de problèmes,
+                      organisation.
                     </p>
                   </div>
                 </div>
@@ -62,31 +69,24 @@ function Study() {
             <div className="col-study-4">
               <div className="single-horizontal-timeline">
                 <div className="experience-time">
-                  <h2>2024</h2>
-                  <h3>BTS Développeur Web</h3>
+                  <h2>2012 - 2014</h2>
+                  <h3>Contrat d'apprentissage Boucherie</h3>
                 </div>
                 <div className="timeline-horizontal-border">
                   <i className="fa fa-circle" aria-hidden="true"></i>
-                  <span className="single-timeline-horizontal spacial-horizontal-line"></span>
+                  <span className="single-timeline-horizontal"></span>
                 </div>
                 <div className="timeline">
                   <div className="timeline-content">
-                    <h4 className="title">OpenClassroom</h4>
+                    <h4 className="title">CFA du Havre</h4>
                     <h5>Normandie, France</h5>
                     <p className="description">
-                      Formation spécialisée en développement web avec des
-                      compétences en front-end (HTML, CSS, JavaScript, React.js)
-                      et back-end (Node.js, Express, MongoDB, API Rest).
-                      Création de projets web interactifs et optimisés pour
-                      différents dispositifs. Acquisition de compétences en
-                      gestion de bases de données et intégration de solutions
-                      web dynamiques. Amélioration des performances d'un site,
-                      SEO, accessibilité. Apprentissage des méthodologies Agile,
-                      Scrum, Sprint et utilisation d'outils tels que Figma, Git,
-                      GitHub, Visual Studio Code, Wakelet, Notion, PowerPoint.
-                      Développement de mes soft skills : autonomie, résistance
-                      au stress, capacité d'adaptation, résolution de problèmes,
-                      organisation.
+                      Formation en alternance spécialisée dans la découpe, la
+                      transformation, et la préparation des viandes. Acquisition
+                      de compétences techniques en matière d’hygiène et sécurité
+                      alimentaire, ainsi qu’en service client. Expérience
+                      pratique en boucherie artisanale pendant toute la durée du
+                      contrat d'apprentissage.
                     </p>
                   </div>
                 </div>
