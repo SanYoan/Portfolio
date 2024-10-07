@@ -1,0 +1,57 @@
+/* Structure */
+.logo-slider {
+    overflow: hidden;
+    /* Cache les logos hors de la vue */
+    width: 100%;
+    /* Largeur du conteneur */
+    background-color: rgba(181, 54, 255, 0.749);
+    /* Fond semi-transparent */
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-track {
+    display: flex;
+    /* Affiche les logos en ligne */
+    width: calc(200%);
+    /* Largeur double pour l'effet de boucle */
+    animation: scroll 30s linear infinite;
+    /* Animation continue */
+}
+
+/* Styles pour les plus petits écrans */
+@media (max-width: 768px) {
+    .logo-track {
+        animation: scroll 20s linear infinite;
+        /* Vitesse accrue pour les petits écrans */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-track {
+        animation: scroll 10s linear infinite;
+        /* Vitesse encore accrue pour les très petits écrans */
+    }
+}
+
+.logo-track img {
+    width: 70px;
+    /* Taille des logos */
+    height: 60px;
+    margin: 0 40px;
+    /* Espacement entre les logos */
+}
+
+/* Animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+        /* Départ */
+    }
+
+    100% {
+        transform: translateX(-50%);
+        /* Déplace de 50% pour créer un effet de boucle */
+    }
+}
