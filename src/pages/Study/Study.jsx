@@ -10,12 +10,12 @@ function Study() {
             <div className="col-study-4">
               <div className="single-horizontal-timeline">
                 <div className="experience-time">
-                  <h2>2024</h2>
+                  <h2>2024 - 2024</h2>
                   <h3>BTS Développeur Web</h3>
                 </div>
                 <div className="timeline-horizontal-border">
                   <i className="fa fa-circle" aria-hidden="true"></i>
-                  <span className="single-timeline-horizontal spacial-horizontal-line"></span>
+                  <span className="single-timeline-horizontal"></span>
                 </div>
                 <div className="timeline">
                   <div className="timeline-content">
@@ -74,11 +74,11 @@ function Study() {
                 </div>
                 <div className="timeline-horizontal-border">
                   <i className="fa fa-circle" aria-hidden="true"></i>
-                  <span className="single-timeline-horizontal"></span>
+                  <span className="single-timeline-horizontal spacial-horizontal-line"></span>
                 </div>
                 <div className="timeline">
                   <div className="timeline-content">
-                    <h4 className="title">CFA du Havre</h4>
+                    <h4 className="title">CFA Du Havre</h4>
                     <h5>Normandie, France</h5>
                     <p className="description">
                       Formation en alternance spécialisée dans la découpe, la
