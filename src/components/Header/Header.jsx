@@ -17,7 +17,7 @@ const Header = () => {
               >
                 <i className="fa fa-bars"></i>
               </button>
-              <Link className="navbar-brand" to="/accueil">
+              <Link className="navbar-brand" to="/Portfolio">
                 <img src={logo} className="logo_img" alt="logo" />
               </Link>
             </div>
