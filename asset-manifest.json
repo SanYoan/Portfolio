@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c606481d.css",
+    "main.js": "/Portfolio/static/js/main.6cb27a5a.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/CV_Sannier_Yoan.pdf": "/Portfolio/static/media/CV_Sannier_Yoan.6913cdb7f594675fc0f6.pdf",
+    "static/media/logo.png": "/Portfolio/static/media/logo.ca066d49758e82035db4.png",
+    "static/media/css.png": "/Portfolio/static/media/css.5bd8c8166c13d3d30503.png",
+    "static/media/git.png": "/Portfolio/static/media/git.7e19ced30f7817541e65.png",
+    "static/media/powerpoint.png": "/Portfolio/static/media/powerpoint.3594b04d2e508fd46c00.png",
+    "static/media/js.png": "/Portfolio/static/media/js.1ce573bf7bfcde1728a4.png",
+    "static/media/profile.jpg": "/Portfolio/static/media/profile.7a53e60ff58dacfcf767.jpg",
+    "static/media/Wakelet Logo Blue.png": "/Portfolio/static/media/Wakelet Logo Blue.6031f768880f948af728.png",
+    "static/media/API.png": "/Portfolio/static/media/API.6cce6df96b823040075f.png",
+    "static/media/mongoDB.png": "/Portfolio/static/media/mongoDB.911d600323e9c405d0db.png",
+    "static/media/react.png": "/Portfolio/static/media/react.20adfb35ae6a6e5817bf.png",
+    "static/media/node.png": "/Portfolio/static/media/node.e71346fe0fec16ec5f6e.png",
+    "static/media/seo.png": "/Portfolio/static/media/seo.685b5382dbc4406a14a6.png",
+    "static/media/express.png": "/Portfolio/static/media/express.548f1cfd65ae2d062126.png",
+    "static/media/p3.jpg": "/Portfolio/static/media/p3.6fe37ed976ab942008ef.jpg",
+    "static/media/photoshop.png": "/Portfolio/static/media/photoshop.6e051091f57d890bde65.png",
+    "static/media/figma.png": "/Portfolio/static/media/figma.257e6178b0dce1bce576.png",
+    "static/media/github.png": "/Portfolio/static/media/github.987334e9f782cc505f25.png",
+    "static/media/npm.png": "/Portfolio/static/media/npm.5904c46fdce9a3192c3b.png",
+    "static/media/sass.png": "/Portfolio/static/media/sass.1e7800226257cf0a44bf.png",
+    "index.html": "/Portfolio/index.html",
+    "main.c606481d.css.map": "/Portfolio/static/css/main.c606481d.css.map",
+    "main.6cb27a5a.js.map": "/Portfolio/static/js/main.6cb27a5a.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c606481d.css",
+    "static/js/main.6cb27a5a.js"
+  ]
+}
