@@ -46,9 +46,9 @@ function Home() {
                     Mon apprentissage en tant que développeur web a commencé en
                     août 2023. Avant cela, j'étais manager dans le domaine de la
                     boucherie-charcuterie. Bien que j'aie apprécié certains
-                    aspects de ce travail, je ne me sentais pas épanoui. La
-                    routine s'installait et j'avais l'impression que mes
-                    compétences stagnent. Un mois avant de débuter mon
+                    aspects de ce travail, je ne me sentais pas épanoui.La
+                    routine s'installait et je sentais que mes compétences ne
+                    progressaient plus. Un mois avant de débuter mon
                     apprentissage autodidacte des langages informatiques, j'ai
                     traversé des épreuves de santé assez graves. Ces moments
                     difficiles m'ont poussé à réfléchir profondément à ma vie et
