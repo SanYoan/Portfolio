@@ -135,6 +135,14 @@
 		max-width: 450px;
 	}
 
+	.header-text a {
+		width: 160px;
+		height: 60px;
+		line-height: 60px;
+		letter-spacing: 1px;
+		font-weight: 700;
+		font-size: 16px;
+	}
 
 
 	.experience-time span>i,
@@ -179,6 +187,10 @@
 		font-size: 26px;
 
 	}
+
+	.welcome-hero {
+		height: 642px;
+	}
 }
 
 /*max-width:660px*/
@@ -197,9 +209,37 @@
 	}
 
 	.description {
-		border-bottom: 4px dotted #ff00e3;
+		border-bottom: 4px dotted #ffffff;
+		/* Bordure initialement blanche */
 		padding-bottom: 10px;
+		position: relative;
+		/* Nécessaire pour que l'effet slide fonctionne */
+		animation: dotSlideAndColor 10s infinite linear;
 	}
+
+	@keyframes dotSlideAndColor {
+		0% {
+			border-color: #ffffff;
+			/* Départ avec les points blancs */
+			background-position: 0 0;
+			/* Pas de décalage au départ */
+		}
+
+		50% {
+			border-color: #ff00e3;
+			/* Les points deviennent roses à mi-chemin */
+			background-position: 20px 0;
+			/* Glissement vers la droite */
+		}
+
+		100% {
+			border-color: #ffffff;
+			/* Retour à blanc */
+			background-position: 0 0;
+			/* Retour à la position initiale */
+		}
+	}
+
 
 }
 

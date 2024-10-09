@@ -17,9 +17,9 @@ function Skills() {
                         className="progress-bar"
                         role="progressbar"
                         aria-valuenow="74"
-                        aria-valuemin="0"
+                        aria-valuemin="10"
                         aria-valuemax="100"
-                        aria-label="Adobe Photoshop proficiency 74%"
+                        style={{}}
                       ></div>
                     </div>
                     <h3>74%</h3>
@@ -33,7 +33,7 @@ function Skills() {
                         className="progress-bar"
                         role="progressbar"
                         aria-valuenow="86"
-                        aria-valuemin="0"
+                        aria-valuemin="10"
                         aria-valuemax="100"
                         aria-label="PowerPoint proficiency 86%"
                       ></div>

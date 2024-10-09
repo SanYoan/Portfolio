@@ -1,6 +1,7 @@
-import logo from "../../assets/logo.png";
 
-import { Link } from "react-router-dom";
+import React from "react";
+import logo from "../../assets/logo.png";
+import { Link } from "react-scroll"; // Importer Link depuis react-scroll
 
 const Header = () => {
   return (
@@ -17,9 +18,9 @@ const Header = () => {
               >
                 <i className="fa fa-bars"></i>
               </button>
-              <Link className="navbar-brand" to="/Portfolio">
+              <a className="navbar-brand" href="/Portfolio">
                 <img src={logo} className="logo_img" alt="logo" />
-              </Link>
+              </a>
             </div>
 
             <div
@@ -31,23 +32,54 @@ const Header = () => {
                 data-in="fadeInDown"
                 data-out="fadeOutUp"
               >
-                <li className="smooth-menu active">
-                  <Link to="#accueil">Accueil</Link>
+                <li className=" smooth-menu active"></li>
+                <li className="smooth-menu">
+                  <Link
+                    to="welcome-hero"
+                    href="#welcome-hero"
+                  >
+                    Accueil
+                  </Link>
                 </li>
                 <li className="smooth-menu">
-                  <Link to="#about">Presentation</Link>
+                  <Link
+                    to="about"
+                    href="#about"
+                  >
+                    Presentation
+                  </Link>
                 </li>
                 <li className="smooth-menu">
-                  <Link to="#study">Études</Link>
+                  <Link
+                    to="education"
+                    href="#education"
+                  >
+                    Études
+                  </Link>
                 </li>
                 <li className="smooth-menu">
-                  <Link to="#competences">Compétences</Link>
+                  <Link
+                    to="skills"
+                    href="#skills"
+                  >
+                    Compétences
+                  </Link>
                 </li>
                 <li className="smooth-menu">
-                  <Link to="#projet">Projets</Link>
+                  <Link
+                    to="projet"
+                    href="#projet"
+                  >
+                    Projets
+                  </Link>
                 </li>
                 <li className="smooth-menu">
-                  <Link to="#contact">Contact</Link>
+                  <Link
+                    to="contact"
+                    href="#contact"
+                  >
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -60,3 +92,4 @@ const Header = () => {
 };
 
 export default Header;
+

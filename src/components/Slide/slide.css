@@ -9,31 +9,20 @@
     height: 80px;
     display: flex;
     align-items: center;
+    z-index: 1;
+
 }
 
 .logo-track {
     display: flex;
     /* Affiche les logos en ligne */
-    width: calc(200%);
     /* Largeur double pour l'effet de boucle */
-    animation: scroll 30s linear infinite;
+    animation: scroll 100s linear infinite;
     /* Animation continue */
 }
 
-/* Styles pour les plus petits écrans */
-@media (max-width: 768px) {
-    .logo-track {
-        animation: scroll 20s linear infinite;
-        /* Vitesse accrue pour les petits écrans */
-    }
-}
 
-@media (max-width: 480px) {
-    .logo-track {
-        animation: scroll 10s linear infinite;
-        /* Vitesse encore accrue pour les très petits écrans */
-    }
-}
+
 
 .logo-track img {
     width: 70px;
@@ -51,7 +40,7 @@
     }
 
     100% {
-        transform: translateX(-50%);
-        /* Déplace de 50% pour créer un effet de boucle */
+        transform: translateX(-100%);
+
     }
 }

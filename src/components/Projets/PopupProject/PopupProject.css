@@ -1,0 +1,215 @@
+/* Overlay pour le fond */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 38, 60, 0.8);
+    z-index: 4;
+}
+
+/* Pop-up container */
+#popup_message {
+    background-color: rgba(31, 44, 108);
+    border: 2px solid #d92cf9;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 100vh;
+    /* Largeur max pour les grands écrans */
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    border-radius: 10px;
+    font-family: 'Work Sans', 'Source Sans Pro', sans-serif;
+}
+
+/* Style pour le contenu de la modale */
+.content_modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* Alignement vers le haut */
+    color: white;
+    /* Assurez-vous que la couleur du texte est en blanc */
+
+}
+
+.close-button {
+    position: absolute;
+    /* Positionner le bouton de manière absolue */
+    top: 10px;
+    /* Ajustez la distance du haut */
+    right: 10px;
+    /* Ajustez la distance de la droite */
+    background: none;
+    /* Pas de fond */
+    border: none;
+    /* Pas de bordure */
+    color: white;
+    /* Couleur du texte */
+    font-size: 5rem;
+    /* Taille du texte */
+    cursor: pointer;
+    /* Curseur de pointeur pour indiquer que c'est cliquable */
+    transition: transform 0.5s ease;
+    /* Transition pour la transformation */
+}
+
+.close-button:hover {
+    transform: rotate(360deg);
+    /* Rotation de 360 degrés au survol */
+    color: #d92cf9;
+    /* Changez la couleur lors du survol */
+}
+
+
+
+.section {
+    width: 60%;
+    /* Chaque section prend environ la moitié */
+    padding: 10px;
+}
+
+#popup_message h3 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#popup_message h4 {
+    padding-top: 10px;
+    font-size: 1.8em;
+}
+
+/* Styles pour la liste non ordonnée */
+#popup_message ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+/* Styles pour les éléments de la liste */
+#popup_message li {
+    background-color: hsla(291, 94%, 57%, 0.568);
+    margin: 10px auto;
+    /* Utilise auto pour centrer */
+    border-radius: 10px;
+    text-align: center;
+    /* Centre le texte */
+    display: block;
+    /* Laisser comme bloc pour une liste verticale */
+    padding: 3px;
+    /* Ajout d'un padding pour augmenter la taille du fond */
+    width: fit-content;
+    /* Ajuste la largeur au contenu */
+    min-width: 100px;
+    /* Largeur minimum pour les éléments de la liste */
+    font-weight: 700;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+
+
+#popup_message p {
+    font-size: 1.2em;
+    color: white;
+}
+
+.border-title {
+    width: 70%;
+    height: 2px;
+    background-color: #d92cf9;
+    margin: 10px auto;
+
+}
+
+.degrade_imgModal {
+    width: 100%;
+    /* Cover the entire width of the image container */
+    height: 100%;
+    /* Cover the entire height of the image container */
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.696));
+    position: absolute;
+    /* Absolutely position within the image container */
+    top: 0;
+    /* Start at the top */
+    left: 0;
+    /* Start at the left */
+    z-index: 2;
+    transform: translateY(50%);
+    /* Commence en bas */
+    /* Position above the image but below buttons */
+    transition:
+        transform 0.5s ease,
+        background 0.5s ease;
+    border-radius: 10px;
+    /* Match the image border radius */
+}
+
+/* Hover effect for the gradient overlay */
+.degrade_imgModal:hover {
+    cursor: pointer;
+    transform: translateY(0%);
+    /* Reset the translation on hover */
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(191, 0, 255, 0.5));
+    /* Change gradient on hover */
+}
+
+
+/* Image container styling */
+.img-container {
+    position: relative;
+    /* Ensure the img-container is positioned for the overlay */
+    overflow: hidden;
+    /* Hide overflow to prevent gradient overflow */
+}
+
+#popup_message img {
+    width: 100%;
+    /* Ensure image takes full width of the container */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+    /* Match border radius of the overlay */
+    object-fit: cover;
+    /* Cover the area without distortion */
+}
+
+
+
+.popup-button {
+    background-color: #d92cf9;
+    color: white;
+    padding: 10px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 700;
+    transition: background 0.5s ease-out;
+}
+
+.popup-button:hover {
+    background: #9f00ff;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+
+    .section {
+        width: 100%;
+        /* Prend toute la largeur */
+        margin-bottom: 20px;
+        /* Ajout d'un espace entre les sections */
+
+    }
+}

@@ -1,6 +1,6 @@
 import logo from "../../assets/logo.png";
 
-import { Link } from "react-router-dom";
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,9 +13,9 @@ const Footer = () => {
     <footer id="footer-copyright" className="footer-copyright">
       <div className="container">
         <div className="hm-footer-copyright text-center">
-          <Link to="/Portfolio" className="navbar-brand">
+          <a href="/Portfolio" className="navbar-brand">
             <img src={logo} className="logo_imgFooter" alt="logo" />
-          </Link>
+          </a>
           <p>&copy; {currentYear} Yoan Sannier, Tous droits réservés.</p>
         </div>
       </div>
