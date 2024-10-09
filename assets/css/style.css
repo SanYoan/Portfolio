@@ -111,7 +111,7 @@ button {
 }
 
 .downloadCv {
-    margin-bottom: 150px;
+    margin-bottom: 160px;
 }
 
 html,
@@ -146,6 +146,7 @@ body {
 
 .animated.fadeInDown {
     margin-top: 100px;
+    margin-bottom: 80px;
 }
 
 @media (max-width: 1024px) {
@@ -153,8 +154,13 @@ body {
         font-size: 30px;
     }
 
-    .animated.fadeInDown {
-        margin-top: 60px;
+    .header-text {
+        margin-top: 130px;
+    }
+
+    .header-text .animated.fadeInDown {
+        margin-top: 10px;
+        margin-bottom: 100px;
     }
 
 }
@@ -163,6 +169,7 @@ body {
     .animated.fadeInUp {
         font-size: 20px;
         /* Taille pour les smartphones */
+        height: 60px;
 
     }
 
@@ -223,15 +230,19 @@ nav.navbar.bootsnav ul.nav>li>a {
 }
 
 nav.navbar.bootsnav ul.nav>li>a {
-    padding: 35px 20px;
+    padding: 30px 20px;
+    margin: 5px;
     color: white;
+    cursor: pointer;
 }
 
 nav.navbar.bootsnav ul.nav>li>a:hover,
 nav.navbar.bootsnav ul.nav>li>a:focus,
 nav.navbar.bootsnav ul.nav>li.active>a {
     color: #d92cf9;
-    background-color: white;
+    background-color: rgba(3, 7, 18, 0.815);
+    font-weight: 700;
+    border-radius: 10px;
 }
 
 nav.navbar.bootsnav ul.nav>li.dropdown>a.dropdown-toggle:after {
@@ -314,7 +325,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     background: url(../images/about/banner.jpg)no-repeat;
     background-size: cover;
     background-position: center;
-    height: 890px;
+    height: 970px;
     flex-direction: column;
 }
 
@@ -338,9 +349,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     height: 162px;
 }
 
-.header-text {
-    margin-top: 100px;
-}
+
 
 
 .header-text span {
@@ -638,13 +647,20 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     margin-bottom: 37px;
 }
 
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* Assurez-vous que le canvas est en arrière-plan */
+
+}
+
 .progress-bar {
     background: #b636ff;
     border-radius: 3px;
-    -webkit-transition: width 1.5s ease-in-out;
-    -ms-transition: width 1.5s ease-in-out;
-    -moz-transition: width 1.5s ease-in-out;
-    -o-transition: width 1.5s ease-in-out;
     transition: width 1.5s ease-in-out;
 }
 
@@ -878,8 +894,28 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     padding: 50px 0 100px;
 }
 
+.title-Projects {
+    margin-top: 50px;
+}
+
 .portfolio-content {
     padding-top: 100px;
+}
+
+.blockCards {}
+
+
+.linkCards {
+    display: initial;
+}
+
+.linkCards:hover {
+    display: initial;
+    scale: 1.5em;
+}
+
+.linkCards:active {
+    display: initial;
 }
 
 /* ---- .item ---- */
@@ -956,6 +992,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 /*.isotope-overlay*/
+
+
+
 
 /*-------------------------------------
         10. Clients
@@ -1195,5 +1234,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {
         bottom: 7px;
     }
 }
+
+
+
 
 /*========================Thank you=================
