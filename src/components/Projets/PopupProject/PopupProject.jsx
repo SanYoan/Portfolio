@@ -1,5 +1,6 @@
+
 import "./PopupProject.css";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 const PopupProject = ({ datas, onClose }) => {
     // Ferme la modale si on clique en dehors du contenu (sur l'overlay)
@@ -9,14 +10,25 @@ const PopupProject = ({ datas, onClose }) => {
         }
     };
 
+
+
+    // Fonction pour obtenir le type d'image en fonction de la taille de l'écran
+    const getCurrentImageType = () => {
+        const width = window.innerWidth;
+        if (width <= 480) return "mobile";
+        if (width <= 1024) return "tablet";
+        return "desktop";
+    };
+
+    // Obtient le type d'image actuel
+    const currentImageType = getCurrentImageType();
+
     useEffect(() => {
-        // Cacher la navbar quand la modal est ouverte
         const navbar = document.querySelector("nav.navbar.bootsnav.navbar-fixed");
         if (navbar) {
             navbar.style.display = "none"; // Cache la navbar quand la modale s'ouvre
         }
 
-        // Ferme la modale si "Escape" est pressé
         const handleEscapeKey = (e) => {
             if (e.key === "Escape") {
                 onClose();
@@ -25,7 +37,6 @@ const PopupProject = ({ datas, onClose }) => {
 
         window.addEventListener("keydown", handleEscapeKey);
 
-        // Nettoie l'événement lors du démontage du composant et réaffiche la navbar
         return () => {
             if (navbar) {
                 navbar.style.display = "block"; // Réaffiche la navbar quand la modale se ferme
@@ -34,17 +45,21 @@ const PopupProject = ({ datas, onClose }) => {
         };
     }, [onClose]);
 
+
     return (
         <div id="overlay" onClick={handleOverlayClick}>
             <div id="popup_message">
-                <button className="close-button" onClick={onClose}>✖</button> {/* Bouton pour fermer la modale */}
+                <button className="close-button" onClick={onClose}>✖</button>
                 <h3>{datas.title}</h3>
                 <div className="border-title"></div>
                 <div className="content_modal">
                     <div className="section">
                         <div className="img-container">
                             <div className="degrade_imgModal"></div>
-                            <img src={datas.pictureone} alt="Capture d'écran site" />
+                            <img
+                                src={`${process.env.PUBLIC_URL}${datas.images[currentImageType].pictureone}`}
+                                alt="Capture d'écran site"
+                            />
                         </div>
                         <h4>Compétences apprises :</h4>
                         <div className="border-title"></div>
@@ -62,7 +77,10 @@ const PopupProject = ({ datas, onClose }) => {
                     <div className="section">
                         <div className="img-container">
                             <div className="degrade_imgModal"></div>
-                            <img src={datas.picturetwo} alt="Capture d'écran site" />
+                            <img
+                                src={`${process.env.PUBLIC_URL}${datas.images[currentImageType].picturetwo}`}
+                                alt="Capture d'écran site"
+                            />
                         </div>
                         <h4>Concept du projet :</h4>
                         <div className="border-title"></div>
@@ -75,7 +93,7 @@ const PopupProject = ({ datas, onClose }) => {
                         href={datas.urlsite ? datas.urlsite : '#'}
                         target={datas.urlsite ? "_blank" : "_self"}
                         rel="noopener noreferrer"
-                        className={datas.urlsite ? '' : 'hidden'} // Classe conditionnelle
+                        className={datas.urlsite ? '' : 'hidden'}
                     >
                         <button className="popup-button" id="yesButton">
                             Visitez le site
@@ -86,17 +104,17 @@ const PopupProject = ({ datas, onClose }) => {
                         href={datas.github ? datas.github : '#'}
                         target={datas.github ? "_blank" : "_self"}
                         rel="noopener noreferrer"
-                        className={datas.github ? '' : 'hidden'} // Classe conditionnelle
+                        className={datas.github ? '' : 'hidden'}
                     >
                         <button className="popup-button" id="noButton">
                             Code sur GitHub
                         </button>
                     </a>
                 </div>
-
             </div>
         </div>
     );
 };
 
 export default PopupProject;
+
