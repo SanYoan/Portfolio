@@ -3,45 +3,43 @@
 		"id": "c67ab8a7",
 		"title": "Booki",
 		"cover": "https://i.ibb.co/SxJBTw1/image.webp",
-		"pictureone": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "picturetwo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+		"pictureone": "https://i.ibb.co/0F3D6pq/Booki-cards.webp",
+        "picturetwo": "https://i.ibb.co/8KYCDCY/booki-footer.webp"
 		,
-        "urlsite": "https://i.ibb.co/SxJBTw1/image.webp",
-        "github": "https://i.ibb.co/SxJBTw1/image.webp",
-		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+        "urlsite": "https://sanyoan.github.io/Booki/",
+        "github": "https://github.com/SanYoan/Booki",
+		"description": "Booki est une maquette visuelle d'une plateforme dédiée à la recherche d'hébergements pour des vacances de rêve. Ce projet a été réalisé dans le but de démontrer une interface moderne et attrayante, centrée sur l'expérience utilisateur, sans fonctionnalités dynamiques.",
 		"skills": [
 			"HTML",
-			"CSS",
-            "Figma"	
+			"CSS"
 		]
 	},
 	{
 		"id": "b9123946",
 		"title": "Portfolio Sophie Bluel",
 		"cover": "https://i.ibb.co/0VnVhXZ/vttnvoekgj9bvhmavmgf.webp",
-		"pictureone": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "picturetwo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+		"pictureone": "https://i.ibb.co/PTMdZ9B/sophiebluel-modal.webp",
+        "picturetwo": "https://i.ibb.co/6wT6Qzm/sophiebluel-login.webp"
 		,
-        "urlsite": "https://i.ibb.co/SxJBTw1/image.webp",
-        "github": "https://i.ibb.co/SxJBTw1/image.webp",
-		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+        "urlsite": "https://sanyoan.github.io/Front-end-Sophie-bluel/",
+        "github": "https://github.com/SanYoan/Front-end-Sophie-bluel",
+		"description": "Le Portfolio Sophie Bluel est un projet centré sur la création d'une interface moderne et responsive pour le site d'une designeuse d'espace, conçu pour offrir une expérience utilisateur fluide et esthétique. Réalisé dans le cadre d'un développement front-end, ce projet utilise des technologies classiques du web telles que HTML, CSS et JavaScript, tout en intégrant une maquette élaborée avec Figma.",
 		"skills": [
 			"HTML",
             "CSS",
-            "JavaScript",
-            "Figma"
+            "JavaScript"        
 		]
 	},
 	{
 		"id": "46d188c5",
 		"title": "Nina Carducci - Photographe",
 		"cover": "https://i.ibb.co/LdhgpBG/slfdcmwq8bvtu12a1ze3.webp",
-        "pictureone": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "pictureone": "https://i.ibb.co/g9WFx8p/nina-carrousel.webp",
         "picturetwo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
 		,
-        "urlsite": "https://i.ibb.co/SxJBTw1/image.webp",
-        "github": "https://i.ibb.co/SxJBTw1/image.webp",
-		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+        "urlsite": "https://sanyoan.github.io/Nina-Carducci-p4/",
+        "github": "https://github.com/SanYoan/Nina-Carducci-p4",
+		"description": "En tant que développeur front-end, j'ai amélioré le site de la photographe Nina Carducci ,J'ai optimisé la vitesse du site avec Lighthouse, assuré son accessibilité à tous les utilisateurs, intégré des pratiques de SEO technique pour améliorer sa visibilité, et mis à jour le contenu avec de nouvelles photographies.  ",
 		"skills": [
 			"Lighthouse",
             "Wave",
@@ -56,9 +54,9 @@
         "pictureone": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
         "picturetwo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
 		,
-        "urlsite": "https://i.ibb.co/SxJBTw1/image.webp",
-        "github": "https://i.ibb.co/SxJBTw1/image.webp",
-		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+        "urlsite": "https://sanyoan.github.io/Kasa/",
+        "github": "https://github.com/SanYoan/Kasa",
+		"description": "",
 		"skills": [
 			"JavaScript",
             "React.js",
@@ -73,9 +71,9 @@
         "pictureone": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
         "picturetwo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
 		,
-        "urlsite": "https://i.ibb.co/SxJBTw1/image.webp",
-        "github": "https://i.ibb.co/SxJBTw1/image.webp",
-		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+        
+        "github": "https://github.com/SanYoan/Vieux-grimoire",
+		"description": "",
 		"skills": [
 			"Node.JS",
             "Express",
@@ -86,18 +84,17 @@
 	{
 		"id": "0457867c",
 		"title": "Portfolio",
-		"cover": "https://i.ibb.co/Ms4PxMp/yx4ki3ncx5ydcoojxopa.webp",
-        "pictureone": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"cover": "https://i.ibb.co/Z6fFSPz/portfolio-cover.webp",
+        "pictureone": "https://i.ibb.co/XVqmMSf/portfolio-skills.webp",
         "picturetwo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
 		,
-        "urlsite": "https://i.ibb.co/SxJBTw1/image.webp",
-        "github": "https://i.ibb.co/SxJBTw1/image.webp",
-		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+        "urlsite": "https://sanyoan.github.io/Portfolio/",
+        "github": "https://github.com/SanYoan/Portfolio",
+		"description": "Le développement de mon portfolio a été un projet passionnant, visant à créer une plateforme professionnelle pour présenter mes compétences, mes projets et mon parcours de développeur.",
 		"skills": [
 			"React.js",
             "Scss",
-            "JavaScript",
-            "Canvas"	
+            "JavaScript"
 		]
 	}
 ]

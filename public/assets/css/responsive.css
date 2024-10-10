@@ -42,6 +42,10 @@
 		font-size: 18px;
 	}
 
+	.experience-time h3 {
+		font-size: 14px;
+	}
+
 	nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-title a {
 		margin-top: 20px;
 		font-size: 14px;

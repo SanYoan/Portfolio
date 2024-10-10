@@ -1,13 +1,15 @@
 import { useState } from "react";
 import styles from "../Cards/cards.module.scss";
 import PopupProject from "../PopupProject/PopupProject";
-import datas from "../../../datas/projets.json"
 
 const CardList = ({ datas }) => {
   // État pour contrôler l'ouverture du popup
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
-
+  // Fonction pour fermer le popup
+  const handleClosePopup = () => {
+    setIsPopupOpen(false);
+  };
 
   return (
     <>
@@ -18,7 +20,7 @@ const CardList = ({ datas }) => {
       </button>
 
       {/* Si isPopupOpen est true, on affiche le PopupProject */}
-      {isPopupOpen && <PopupProject datas={datas} />}
+      {isPopupOpen && <PopupProject datas={datas} onClose={handleClosePopup} />}
     </>
   );
 };
