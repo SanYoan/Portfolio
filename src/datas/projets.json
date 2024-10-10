@@ -35,7 +35,7 @@
 		"title": "Nina Carducci - Photographe",
 		"cover": "https://i.ibb.co/LdhgpBG/slfdcmwq8bvtu12a1ze3.webp",
         "pictureone": "https://i.ibb.co/g9WFx8p/nina-carrousel.webp",
-        "picturetwo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+        "picturetwo": "https://i.ibb.co/Mf7Qnfx/nina-filter.webp"
 		,
         "urlsite": "https://sanyoan.github.io/Nina-Carducci-p4/",
         "github": "https://github.com/SanYoan/Nina-Carducci-p4",
@@ -51,12 +51,12 @@
 		"id": "7af00cd6",
 		"title": "Kasa",
 		"cover": "https://i.ibb.co/cTkWbVK/Capture.webp",
-        "pictureone": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "picturetwo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+        "pictureone": "https://i.ibb.co/4Mvy5Z9/kasa-about.webp",
+        "picturetwo": "https://i.ibb.co/G2xW2Vg/kasa-full.webp"
 		,
         "urlsite": "https://sanyoan.github.io/Kasa/",
         "github": "https://github.com/SanYoan/Kasa",
-		"description": "",
+		"description": "J'ai développé une application web avec React.js permettant d'afficher des appartements sous forme de cartes. Chaque appartement présente des détails spécifiques comme des descriptions, des images et des caractéristiques uniques. L'interface utilisateur a été conçue en utilisant Sass et Scss pour garantir une mise en page réactive et moderne, optimisée pour une expérience utilisateur fluide et intuitive.",
 		"skills": [
 			"JavaScript",
             "React.js",
@@ -67,13 +67,13 @@
 	{
 		"id": "0979876d",
 		"title": "Mon Vieux Grimoire",
-		"cover": "https://i.ibb.co/Ms4PxMp/yx4ki3ncx5ydcoojxopa.webp",
-        "pictureone": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "picturetwo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+		"cover": "https://i.ibb.co/fHfY5Nk/vieuxgrimoire-book.webp",
+        "pictureone": "https://i.ibb.co/JRxdW0q/vieuxgrimoire-best.webp",
+        "picturetwo": "https://i.ibb.co/SdbNh8Y/addbook.webp"
 		,
         
         "github": "https://github.com/SanYoan/Vieux-grimoire",
-		"description": "",
+		"description": "J'ai développé une API Rest avec Node.js, Express, et MongoDB pour la gestion de livres. L'API permet d'effectuer des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer) sur les livres, ainsi que la gestion des utilisateurs avec un système d'authentification pour sécuriser l'accès aux fonctionnalités de l'application.",
 		"skills": [
 			"Node.JS",
             "Express",
@@ -86,7 +86,7 @@
 		"title": "Portfolio",
 		"cover": "https://i.ibb.co/Z6fFSPz/portfolio-cover.webp",
         "pictureone": "https://i.ibb.co/XVqmMSf/portfolio-skills.webp",
-        "picturetwo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+        "picturetwo": "https://i.ibb.co/r0yjhFt/modal-Portfolio.webp"
 		,
         "urlsite": "https://sanyoan.github.io/Portfolio/",
         "github": "https://github.com/SanYoan/Portfolio",

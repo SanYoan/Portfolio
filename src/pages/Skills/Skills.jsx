@@ -1,4 +1,44 @@
+import { useEffect } from "react";
+
 function Skills() {
+  useEffect(() => {
+    const progressBars = document.querySelectorAll(".progress-bar");
+
+    const section = document.getElementById("skills");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Lancer l'animation de chaque barre de progression
+            progressBars.forEach((bar) => {
+              const maxValue = bar.getAttribute("aria-valuenow");
+              bar.style.width = "0%"; // initialiser à 0%
+
+              setTimeout(() => {
+                bar.style.width = maxValue + "%"; // animer jusqu'à la valeur de la barre
+              }, 100); // délai léger avant l'animation
+            });
+
+            // Arrêter l'observation une fois que l'animation est lancée
+            observer.disconnect();
+          }
+        });
+      },
+      { threshold: 0.5 } // le callback est déclenché quand 50% de la section est visible
+    );
+
+    if (section) {
+      observer.observe(section);
+    }
+
+    return () => {
+      if (section) {
+        observer.unobserve(section); // nettoyer l'observation si le composant est démonté
+      }
+    };
+  }, []);
+
   return (
     <section id="skills" className="skills">
       <div className="skill-content">
@@ -19,7 +59,6 @@ function Skills() {
                         aria-valuenow="74"
                         aria-valuemin="10"
                         aria-valuemax="100"
-                        style={{}}
                       ></div>
                     </div>
                     <h3>74%</h3>
@@ -35,7 +74,6 @@ function Skills() {
                         aria-valuenow="86"
                         aria-valuemin="10"
                         aria-valuemax="100"
-                        aria-label="PowerPoint proficiency 86%"
                       ></div>
                     </div>
                     <h3>86%</h3>
@@ -51,7 +89,6 @@ function Skills() {
                         aria-valuenow="57"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        aria-label="Node.js and Express proficiency 57%"
                       ></div>
                     </div>
                     <h3>57%</h3>
@@ -67,7 +104,6 @@ function Skills() {
                         aria-valuenow="54"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        aria-label="API Rest proficiency 54%"
                       ></div>
                     </div>
                     <h3>54%</h3>
@@ -88,7 +124,6 @@ function Skills() {
                         aria-valuenow="90"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        aria-label="HTML 5 proficiency 90%"
                       ></div>
                     </div>
                     <h3>90%</h3>
@@ -104,7 +139,6 @@ function Skills() {
                         aria-valuenow="85"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        aria-label="CSS 3 proficiency 85%"
                       ></div>
                     </div>
                     <h3>85%</h3>
@@ -120,7 +154,6 @@ function Skills() {
                         aria-valuenow="65"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        aria-label="JavaScript proficiency 65%"
                       ></div>
                     </div>
                     <h3>65%</h3>
@@ -136,7 +169,6 @@ function Skills() {
                         aria-valuenow="70"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        aria-label="React.js proficiency 70%"
                       ></div>
                     </div>
                     <h3>70%</h3>
