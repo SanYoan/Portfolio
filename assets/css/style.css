@@ -661,6 +661,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 .progress-bar {
     background: #b636ff;
     border-radius: 3px;
+    width: 0%;
     transition: width 1.5s ease-in-out;
 }
 
