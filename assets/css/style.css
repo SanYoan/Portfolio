@@ -464,7 +464,8 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*.single-about-img */
 .single-about-img {
     position: relative;
-    box-shadow: 0 5px 20px rgba(14, 25, 80, .30);
+    box-shadow: 0 5px 20px rgba(157, 0, 255, 0.422);
+    border-radius: 20px;
 }
 
 
@@ -474,14 +475,16 @@ nav.navbar.bootsnav .navbar-toggle i {
     content: " ";
     top: 0;
     left: 0;
-    width: 109%;
+    width: 100%;
     height: 100%;
     background: rgba(31, 44, 108, .3);
+    border-radius: 20px;
 }
 
 .single-about-img img {
-    max-width: 500px;
+    max-width: 100%;
     padding: 1px;
+    border-radius: 20px;
 }
 
 .about-list-icon {
@@ -491,9 +494,11 @@ nav.navbar.bootsnav .navbar-toggle i {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 109%;
+    width: 100%;
     height: 90px;
     background: rgba(30, 38, 60, 0.8);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 /*.ab-list-icon */
@@ -597,7 +602,22 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
-.skills {}
+
+.skillImg {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -2px;
+    left: 15px;
+}
+
+.skillImgE {
+    width: 80px;
+    height: 30px;
+    position: relative;
+    top: -2px;
+    left: 15px;
+}
 
 .skill-content {
     padding: 50px 0 80px;
@@ -895,15 +915,101 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     padding: 50px 0 100px;
 }
 
+.remainingProjects {
+    color: #9f00ff;
+    font-weight: bold;
+}
+
+.noMoreProjects {
+    color: rgb(199, 72, 72);
+    font-weight: bold;
+}
+
 .title-Projects {
     margin-top: 50px;
+}
+
+.showMoreBtn {
+    background: #9f00ff;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    transition: .5s;
+
+}
+
+
+.showMoreBtn:hover {
+    background: #fff;
+    color: #b636ff;
+    border: 1px solid #b636ff;
+    transition: .5s;
+}
+
+.arrowProjetsUp {
+    animation-name: arrowBounceUp;
+    /* Utiliser le nom de l'animation */
+    animation-direction: alternate;
+    /* Alterne entre le début et la fin */
+    animation-iteration-count: infinite;
+    /* L'animation se répète à l'infini */
+    animation-duration: 1.2s;
+    /* Durée de l'animation */
+}
+
+/* Définir l'animation */
+@keyframes arrowBounceUp {
+    0% {
+        transform: translateY(0);
+        /* Position d'origine */
+    }
+
+    50% {
+        transform: translateY(5px);
+        /* Monte de 10px */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* Retourne à la position d'origine */
+    }
+}
+
+.arrowProjetsDown {
+    animation-name: arrowBounceDown;
+    /* Utiliser le nom de l'animation */
+    animation-direction: alternate;
+    /* Alterne entre le début et la fin */
+    animation-iteration-count: infinite;
+    /* L'animation se répète à l'infini */
+    animation-duration: 1.2s;
+    /* Durée de l'animation */
+}
+
+/* Définir l'animation */
+@keyframes arrowBounceDown {
+    0% {
+        transform: translateY(0);
+        /* Position d'origine */
+    }
+
+    50% {
+        transform: translateY(-5px);
+        /* Monte de 10px */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* Retourne à la position d'origine */
+    }
 }
 
 .portfolio-content {
     padding-top: 100px;
 }
 
-.blockCards {}
 
 
 .linkCards {
@@ -1064,6 +1170,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 
 /*--contct button--*/
 .contact-form .single-contact-btn {
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1079,6 +1186,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     -ms-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
+    font-weight: 700;
 }
 
 .contact-form .single-contact-btn .contact-btn,
@@ -1088,7 +1196,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     border: 0;
     color: #fff;
     border-radius: 0px;
-    font-size: 14px;
+    font-size: 20px;
     -webkit-transition: .5s;
     -moz-transition: .5s;
     -ms-transition: .5s;
@@ -1168,6 +1276,15 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 
 #footer-copyright {
     background-color: rgba(30, 38, 60, 0.8);
+}
+
+.citation {
+    color: white;
+    font-style: italic;
+}
+
+cite {
+    color: #b636ff
 }
 
 .hm-footer-copyright p {
