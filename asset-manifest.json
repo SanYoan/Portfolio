@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.5fbede0e.css",
-    "main.js": "/Portfolio/static/js/main.3b315005.js",
+    "main.js": "/Portfolio/static/js/main.8ddacf2d.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/CV_Sannier_Yoan.pdf": "/Portfolio/static/media/CV_Sannier_Yoan.6913cdb7f594675fc0f6.pdf",
     "static/media/logo.png": "/Portfolio/static/media/logo.ca066d49758e82035db4.png",
@@ -24,11 +24,11 @@
     "static/media/sass.png": "/Portfolio/static/media/sass.1e7800226257cf0a44bf.png",
     "index.html": "/Portfolio/index.html",
     "main.5fbede0e.css.map": "/Portfolio/static/css/main.5fbede0e.css.map",
-    "main.3b315005.js.map": "/Portfolio/static/js/main.3b315005.js.map",
+    "main.8ddacf2d.js.map": "/Portfolio/static/js/main.8ddacf2d.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fbede0e.css",
-    "static/js/main.3b315005.js"
+    "static/js/main.8ddacf2d.js"
   ]
 }
