@@ -5,18 +5,27 @@ function AnimatedBackground() {
         const canvas = document.querySelector('.background');
         const ctx = canvas.getContext('2d');
 
+        // Fonction de redimensionnement du canvas
+        const resizeCanvas = () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        };
+
+        // Appeler resizeCanvas avant de créer les points pour s'assurer que le canvas est correctement dimensionné
+        resizeCanvas();
+
         const points = [];
-        // Déterminez le nombre de points en fonction de la taille de l'écran
-        const numPoints = window.innerWidth < 768 ? 20 : 80; // Moins de points sur mobile
+        // Déterminer le nombre de points en fonction de la taille de l'écran
+        const numPoints = window.innerWidth < 768 ? 20 : 50; // Moins de points sur mobile
 
         // Créer des points aléatoires
         for (let i = 0; i < numPoints; i++) {
             points.push({
-                x: Math.random() * canvas.width,
-                y: Math.random() * canvas.height,
-                // Réduire la vitesse en mobile
-                vx: window.innerWidth < 768 ? Math.random() * 0.25 - 0.25 : Math.random() * 0.5 - 0.8, // Vitesse en x
-                vy: window.innerWidth < 768 ? Math.random() * 0.25 - 0.25 : Math.random() * 0.5 - 0.8  // Vitesse en y
+                x: Math.random() * canvas.width, // Utiliser la largeur actuelle du canvas
+                y: Math.random() * canvas.height, // Utiliser la hauteur actuelle du canvas
+                // Réduire la vitesse sur mobile
+                vx: window.innerWidth < 768 ? Math.random() * 0.25 - 0.25 : Math.random() * 0.5 - 0.5, // Vitesse en x
+                vy: window.innerWidth < 768 ? Math.random() * 0.25 - 0.25 : Math.random() * 0.5 - 0.5  // Vitesse en y
             });
         }
 
@@ -34,7 +43,7 @@ function AnimatedBackground() {
             // Vérifier si l'écran est mobile pour changer la couleur des lignes
             const isMobile = window.innerWidth < 768;
             ctx.strokeStyle = isMobile ? 'black' : 'rgba(182, 54, 255, 0.8)'; // Couleur des lignes
-            ctx.lineWidth = isMobile ? '0.5' : '2'; // largeur ligne
+            ctx.lineWidth = isMobile ? '0.5' : '2'; // largeur de la ligne
 
             // Dessiner des lignes entre les points
             for (let i = 0; i < points.length; i++) {
@@ -72,17 +81,9 @@ function AnimatedBackground() {
 
         animate(); // Démarrer l'animation
 
-        // Mettre à jour la taille du canvas lors du redimensionnement de la fenêtre
-        const resizeCanvas = () => {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-        };
-
-        window.addEventListener('resize', resizeCanvas);
-        resizeCanvas(); // Initialiser la taille du canvas
-
+        window.addEventListener('resize', resizeCanvas); // Mettre à jour la taille du canvas lors du redimensionnement
         return () => {
-            window.removeEventListener('resize', resizeCanvas); // Nettoyage de l'événement
+            window.removeEventListener('resize', resizeCanvas); // Nettoyer l'événement au démontage
         };
     }, []);
 
