@@ -16,7 +16,7 @@ function AnimatedBackground() {
 
         const points = [];
         // Déterminer le nombre de points en fonction de la taille de l'écran
-        const numPoints = window.innerWidth < 768 ? 20 : 50; // Moins de points sur mobile
+        const numPoints = window.innerWidth < 768 ? 20 : 80; // Moins de points sur mobile
 
         // Créer des points aléatoires
         for (let i = 0; i < numPoints; i++) {
@@ -24,8 +24,8 @@ function AnimatedBackground() {
                 x: Math.random() * canvas.width, // Utiliser la largeur actuelle du canvas
                 y: Math.random() * canvas.height, // Utiliser la hauteur actuelle du canvas
                 // Réduire la vitesse sur mobile
-                vx: window.innerWidth < 768 ? Math.random() * 0.25 - 0.25 : Math.random() * 0.5 - 0.5, // Vitesse en x
-                vy: window.innerWidth < 768 ? Math.random() * 0.25 - 0.25 : Math.random() * 0.5 - 0.5  // Vitesse en y
+                vx: window.innerWidth < 768 ? Math.random() * 0.25 - 0.25 : Math.random() * 0.5 - 0.8, // Vitesse en x
+                vy: window.innerWidth < 768 ? Math.random() * 0.25 - 0.25 : Math.random() * 0.5 - 0.8  // Vitesse en y
             });
         }
 
