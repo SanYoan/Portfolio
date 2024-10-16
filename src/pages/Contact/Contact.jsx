@@ -24,15 +24,15 @@ function Contact() {
                   <div className="contact-add-info">
                     <div className="single-contact-add-info">
                       <h3>Téléphone</h3>
-                      <a className="linkContact" href="tel:+33770349718">07.70.34.97.18</a>
+                      <a aria-label="Number_Phone" className="linkContact" href="tel:+33770349718">07.70.34.97.18</a>
                     </div>
                     <div className="single-contact-add-info">
                       <h3>Email</h3>
-                      <a className="linkContact" href="mailto:yoan.sannier@gmail.com">yoan.sannier@gmail.com</a>
+                      <a aria-label="Email" className="linkContact" href="mailto:yoan.sannier@gmail.com">yoan.sannier@gmail.com</a>
                     </div>
                     <div className="single-contact-add-info">
                       <h3>LinkedIn</h3>
-                      <a
+                      <a aria-label="LinkedIn"
                         className="linkContact"
                         href="https://www.linkedin.com/in/yoan-sannier-4367211b9/"
                       >
@@ -44,17 +44,17 @@ function Contact() {
                 <div className="hm-foot-icon">
                   <ul>
                     <li>
-                      <a href="https://github.com/SanYoan">
+                      <a aria-label="Github" href="https://github.com/SanYoan">
                         <i className="fa fa-github" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.linkedin.com/in/yoan-sannier-4367211b9/">
+                      <a aria-label="linkedIn" href="https://www.linkedin.com/in/yoan-sannier-4367211b9/">
                         <i className="fa fa-linkedin" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/yoan76560/?igsh=eGRpejFzM3h4YjNv">
+                      <a aria-label="Instagram" href="https://www.instagram.com/yoan76560/?igsh=eGRpejFzM3h4YjNv">
                         <i className="fa fa-instagram" aria-hidden="true"></i>
                       </a>
                     </li>

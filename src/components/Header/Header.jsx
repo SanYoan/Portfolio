@@ -7,6 +7,7 @@ import { Link } from "react-scroll"; // Importer Link depuis react-scroll
 
 const Header = () => {
 
+
   const [isExpanded, setIsExpanded] = useState(true); // État initial à true
 
   const handleMenuClick = () => {

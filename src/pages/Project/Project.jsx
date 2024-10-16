@@ -55,11 +55,11 @@ function Project() {
 
         {/* Bouton pour voir plus ou voir moins */}
         {remainingProjects > 0 ? (
-          <button onClick={toggleShowMore} className="showMoreBtn">
+          <button title="voirPlus" onClick={toggleShowMore} className="showMoreBtn">
             <i className="arrowProjetsUp fa fa-angle-down" ></i>
           </button>
         ) : (
-          <button onClick={toggleShowLess} className="showMoreBtn">
+          <button title="voirMoins" onClick={toggleShowLess} className="showMoreBtn">
             <i className="arrowProjetsDown fa fa-angle-up" ></i>
           </button>
         )}

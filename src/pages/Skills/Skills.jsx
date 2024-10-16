@@ -59,6 +59,7 @@ function Skills() {
                         aria-valuenow="74"
                         aria-valuemin="10"
                         aria-valuemax="100"
+                        aria-label="Photoshop"
                       ></div>
                     </div>
                     <h3>74%</h3>
@@ -74,6 +75,7 @@ function Skills() {
                         aria-valuenow="86"
                         aria-valuemin="10"
                         aria-valuemax="100"
+                        aria-label="PowerPoint"
                       ></div>
                     </div>
                     <h3>86%</h3>
@@ -89,6 +91,7 @@ function Skills() {
                         aria-valuenow="57"
                         aria-valuemin="0"
                         aria-valuemax="100"
+                        aria-label="Node.Js"
                       ></div>
                     </div>
                     <h3>57%</h3>
@@ -104,6 +107,7 @@ function Skills() {
                         aria-valuenow="54"
                         aria-valuemin="0"
                         aria-valuemax="100"
+                        aria-label="API Rest"
                       ></div>
                     </div>
                     <h3>54%</h3>
@@ -124,6 +128,7 @@ function Skills() {
                         aria-valuenow="90"
                         aria-valuemin="0"
                         aria-valuemax="100"
+                        aria-label="HTML"
                       ></div>
                     </div>
                     <h3>90%</h3>
@@ -139,6 +144,7 @@ function Skills() {
                         aria-valuenow="85"
                         aria-valuemin="0"
                         aria-valuemax="100"
+                        aria-label="CSS"
                       ></div>
                     </div>
                     <h3>85%</h3>
@@ -154,6 +160,7 @@ function Skills() {
                         aria-valuenow="65"
                         aria-valuemin="0"
                         aria-valuemax="100"
+                        aria-label="JavaScript"
                       ></div>
                     </div>
                     <h3>65%</h3>
@@ -169,6 +176,7 @@ function Skills() {
                         aria-valuenow="70"
                         aria-valuemin="0"
                         aria-valuemax="100"
+                        aria-label="React.JS"
                       ></div>
                     </div>
                     <h3>70%</h3>

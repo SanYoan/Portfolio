@@ -3,6 +3,9 @@
         "id": "c67ab8a7",
         "title": "Booki",
         "cover": "/assets/projets/test.webp",
+        "altCover": "Projet Booki",
+        "altOne":"Booki Card",
+        "altTwo": "Booki Footer",
         "images": {
             "desktop": {
                 "pictureone": "/assets/projets/projets_desktop/Booki_cards.webp",
@@ -29,6 +32,9 @@
         "id": "b9123946",
         "title": "Portfolio Sophie Bluel",
         "cover": "/assets/projets/vttnvoekgj9bvhmavmgf.webp",
+        "altCover": "Sophie Bluel",
+        "altOne":"Modal",
+        "altTwo": "Login page",
         "images": {
             "desktop": {
                 "pictureone": "/assets/projets/projets_desktop/sophiebluel_modal.webp",
@@ -56,6 +62,9 @@
         "id": "46d188c5",
         "title": "Nina Carducci - Photographe",
         "cover": "/assets/projets/slfdcmwq8bvtu12a1ze3.webp",
+        "altCover": "Site de la photographe Nina",
+        "altOne":"Carrousel",
+        "altTwo": "Filters",
         "images": {
             "desktop": {
                 "pictureone": "/assets/projets/projets_desktop/nina_carrousel.webp",
@@ -84,6 +93,9 @@
         "id": "7af00cd6",
         "title": "Kasa",
         "cover": "/assets/projets/Capture.webp",
+        "altCover": "Projet Kasa",
+        "altOne":"Section about",
+        "altTwo": "Landing kasa",
         "images": {
             "desktop": {
                 "pictureone": "/assets/projets/projets_desktop/kasa_about.webp",
@@ -112,6 +124,9 @@
         "id": "0979876d",
         "title": "Mon Vieux Grimoire",
         "cover": "/assets/projets/vieuxgrimoire-book.webp",
+        "altCover": "Site Mon vieux grimoire",
+        "altOne":"Best books",
+        "altTwo": "Add book",
         "images": {
             "desktop": {
                 "pictureone": "/assets/projets/projets_desktop/vieuxgrimoire_best.webp",
@@ -139,6 +154,9 @@
         "id": "0457867c",
         "title": "Portfolio",
         "cover": "/assets/projets/projets_desktop/portfolio_cover.webp",
+        "altCover": "Mon portfolio",
+        "altOne":"Skill portfolio",
+        "altTwo": "Modal Portfolio",
         "images": {
             "desktop": {
                 "pictureone": "/assets/projets/projets_desktop/portfolio_skills.webp",

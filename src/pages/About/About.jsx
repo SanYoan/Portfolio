@@ -1,4 +1,4 @@
-import photo from "../../assets/images/about/profile.jpg";
+import photo from "../../assets/images/about/profile.webp";
 
 function About() {
 
@@ -51,7 +51,7 @@ function About() {
                                 <div className="col-about-4">
                                     <div className="single-about-add-info">
                                         <h3>GitHub</h3>
-                                        <a id="aboutDetail" href="https://github.com/SanYoan">
+                                        <a aria-label="GitHub" id="aboutDetail" href="https://github.com/SanYoan">
                                             https://github.com/SanYoan
                                         </a>
                                     </div>
@@ -66,17 +66,17 @@ function About() {
                             <div className="about-list-icon">
                                 <ul>
                                     <li>
-                                        <a href="https://github.com/SanYoan">
+                                        <a aria-label="GitHub" href="https://github.com/SanYoan">
                                             <i className="fa fa-github" aria-hidden="true"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/yoan-sannier-4367211b9/">
+                                        <a aria-label="LinkedIn" href="https://www.linkedin.com/in/yoan-sannier-4367211b9/">
                                             <i className="fa fa-linkedin" aria-hidden="true"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/yoan76560/?igsh=eGRpejFzM3h4YjNv">
+                                        <a aria-label="Instagram" href="https://www.instagram.com/yoan76560/?igsh=eGRpejFzM3h4YjNv">
                                             <i className="fa fa-instagram" aria-hidden="true"></i>
                                         </a>
                                     </li>

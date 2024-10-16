@@ -88,7 +88,7 @@ const PopupProject = ({ datas, onClose }) => {
                             <div className="img-container" onClick={() => handleImageClick('pictureone', `${process.env.PUBLIC_URL}${datas.images[currentImageType].pictureone}`)}>
                                 <img
                                     src={`${process.env.PUBLIC_URL}${datas.images[currentImageType].pictureone}`}
-                                    alt="Capture d'écran site"
+                                    alt={datas.altOne}
                                 />
                                 <div className="degrade_imgModal"></div>
                             </div>
@@ -110,7 +110,7 @@ const PopupProject = ({ datas, onClose }) => {
                                 <div className="degrade_imgModal"></div>
                                 <img
                                     src={`${process.env.PUBLIC_URL}${datas.images[currentImageType].picturetwo}`}
-                                    alt="Capture d'écran site"
+                                    alt={datas.altTwo}
                                 />
                             </div>
                             <h4>Concept du projet :</h4>
@@ -147,7 +147,7 @@ const PopupProject = ({ datas, onClose }) => {
 
             {fullImage && (
                 <div id="full-image-overlay" onClick={closeFullImage}>
-                    <img src={fullImage} alt={datas.title} />
+                    <img src={fullImage} alt={datas.altCover} />
                 </div>
             )}
         </>
