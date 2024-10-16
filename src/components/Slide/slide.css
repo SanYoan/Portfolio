@@ -25,7 +25,7 @@
 
 
 .logo-track img {
-    width: 90px;
+    width: 100px;
     /* Taille des logos */
     height: 60px;
     margin: 0 40px;
@@ -47,15 +47,15 @@
 
 @media (max-width: 1024px) {
     .logo-track img {
-        width: 80px;
+        width: 60px;
         /* Taille des logos */
         height: 40px;
-        margin: 0 30px;
+        margin: 0 20px;
         /* Espacement entre les logos */
     }
 
     .logo-slider {
-        height: 50px;
+        height: 60px;
     }
 
 }

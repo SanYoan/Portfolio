@@ -31,6 +31,7 @@ const Header = () => {
             <div className="navbar-header">
               <button
                 type="button"
+                aria-label="button-menu"
                 className="navbar-toggle"
                 data-toggle="collapse"
                 data-target="#navbar-menu"
