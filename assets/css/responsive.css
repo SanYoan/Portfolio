@@ -31,7 +31,11 @@
 
 /*max-width:1199px*/
 
-@media screen and (max-width:1024px) {}
+@media screen and (max-width:1024px) {
+	.welcome-hero {
+		background: url(../images/about/banner-tablet.webp)no-repeat;
+	}
+}
 
 /*max-width:1024px*/
 
@@ -203,6 +207,8 @@
 
 	.welcome-hero {
 		height: 642px;
+		background: url(../images/about/banner-mobil.webp)no-repeat;
+		background-size: cover;
 	}
 }
 
