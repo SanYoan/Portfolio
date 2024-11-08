@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.c23506d7.css",
-    "main.js": "/Portfolio/static/js/main.e2a919bd.js",
+    "main.js": "/Portfolio/static/js/main.05217c7f.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/CV_yoan_SANNIER.pdf": "/Portfolio/static/media/CV_yoan_SANNIER.d1531407795a5a76185e.pdf",
     "static/media/mySQL.png": "/Portfolio/static/media/mySQL.167c88550478e6f0f85c.png",
     "static/media/profile.webp": "/Portfolio/static/media/profile.26c8aae5e4f7bb98d0f0.webp",
     "static/media/redux.png": "/Portfolio/static/media/redux.1edba70acbe0a2484e24.png",
     "index.html": "/Portfolio/index.html",
+    "static/media/Lettre_motivation_SANNIER_Yoan.txt": "/Portfolio/static/media/Lettre_motivation_SANNIER_Yoan.ea43d08b7b8ba46459a5.txt",
     "main.c23506d7.css.map": "/Portfolio/static/css/main.c23506d7.css.map",
-    "main.e2a919bd.js.map": "/Portfolio/static/js/main.e2a919bd.js.map",
+    "main.05217c7f.js.map": "/Portfolio/static/js/main.05217c7f.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c23506d7.css",
-    "static/js/main.e2a919bd.js"
+    "static/js/main.05217c7f.js"
   ]
 }
