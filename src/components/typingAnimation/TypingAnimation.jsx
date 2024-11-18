@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import "../../components/typingAnimation/typinganimation.css";
 
 const TypingAnimation = () => {
@@ -17,7 +17,7 @@ const TypingAnimation = () => {
     const [displayedText, setDisplayedText] = useState("");
     const [index, setIndex] = useState(0); // Gérer l'index avec l'état
     const [isErasing, setIsErasing] = useState(false); // État pour savoir si nous effaçons
-    const [isTypingAgain, setIsTypingAgain] = useState(false); // État pour gérer le délai avant de réécrire
+
 
     useEffect(() => {
         if (index < textParts.length) {
@@ -55,7 +55,8 @@ const TypingAnimation = () => {
                 });
 
                 // Vérifier si tout le texte a été effacé
-                if (displayedText.length === 1) { // Si le texte est réduit à un seul caractère
+                if (displayedText.length === 1) {
+                    // Si le texte est réduit à un seul caractère
                     setIsErasing(false); // Arrête l'effacement
 
                     // Introduire un délai avant de commencer à réécrire
@@ -75,15 +76,19 @@ const TypingAnimation = () => {
     useEffect(() => {
         const blinkCursor = setInterval(() => {
             // Alterner le style de display du curseur
-            const cursor = document.getElementById('cursor');
-            cursor.style.display = cursor.style.display === 'none' ? 'inline-block' : 'none';
+            const cursor = document.getElementById("cursor");
+            cursor.style.display =
+                cursor.style.display === "none" ? "inline-block" : "none";
         }, 500); // Clignotement du curseur à 500 ms
 
         return () => clearInterval(blinkCursor); // Nettoyer l'intervalle à la désactivation
     }, []); // Pas de dépendance, s'exécute une fois
 
     return (
-        <h2 className="typing-animation" style={{ whiteSpace: "pre-wrap", color: "#fff", position: "relative" }}>
+        <h2
+            className="typing-animation"
+            style={{ whiteSpace: "pre-wrap", color: "#fff", position: "relative" }}
+        >
             {displayedText.split(/(\n)/g).map((part, i) => {
                 // Gérer les sauts de ligne pour un rendu fluide
                 if (part === "\n") {
@@ -93,14 +98,25 @@ const TypingAnimation = () => {
                 // Gérer les parties de texte, en mettant les virgules et les points en violet
                 return part.split(/(,|\.)/g).map((subPart, j) => {
                     if (subPart === ",") {
-                        return <span key={j} style={{ color: '#d92cf9' }}>,</span>; // Style pour la virgule
+                        return (
+                            <span key={j} style={{ color: "#d92cf9" }}>
+                                ,
+                            </span>
+                        ); // Style pour la virgule
                     } else if (subPart === ".") {
-                        return <span key={j} style={{ color: '#d92cf9' }}>.</span>; // Style pour le point
+                        return (
+                            <span key={j} style={{ color: "#d92cf9" }}>
+                                .
+                            </span>
+                        ); // Style pour le point
                     }
                     return subPart; // Autres parties du texte
                 });
             })}
-            <span id="cursor" className="cursor" style={{ display: 'inline-block' }}>|</span> {/* Curseur */}
+            <span id="cursor" className="cursor" style={{ display: "inline-block" }}>
+                |
+            </span>{" "}
+            {/* Curseur */}
         </h2>
     );
 };

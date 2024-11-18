@@ -179,5 +179,65 @@
             "Scss",
             "JavaScript"
         ]
+    },
+    {
+        "id": "0498467c",
+        "title": "Argent Bank",
+        "cover": "/assets/projets/projets_desktop/home.webp",
+        "altCover": "Argent bank Accueil",
+        "altOne":"signin argent bank",
+        "altTwo": "Edit form argent bank",
+        "images": {
+            "desktop": {
+                "pictureone": "/assets/projets/projets_desktop/signin.webp",
+                "picturetwo": "/assets/projets/projets_desktop/form_edit.webp"
+            },
+            "tablet": {
+                "pictureone": "/assets/projets/projets_tablette/signin.webp",
+                "picturetwo": "/assets/projets/projets_tablette/form_edit.webp"
+            },
+            "mobile": {
+                "pictureone": "/assets/projets/projets_mobile/signin.webp",
+                "picturetwo": "/assets/projets/projets_mobile/form_edit.webp"
+            }
+        },
+        "github": "https://github.com/SanYoan/Argent_bank",
+        "description": "Le développement du site argent Bank a été un projet intéressant pour l'apprentissage des méthodes CRUD avec la mise en place de Redux avec redux Toolkit & d'axios",
+        "skills": [
+            "React.js",
+            "Redux",
+            "Redux toolkit",
+            "Axios",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": "049aef67c",
+        "title": "Grimoire mySQL",
+        "cover": "/assets/projets/projets_desktop/vieuxgrimoireSQL.webp",
+        "altCover": "Grimoire SQL",
+        "altOne":"database connect",
+        "altTwo": "get one book",
+        "images": {
+            "desktop": {
+                "pictureone": "/assets/projets/projets_desktop/code.webp",
+                "picturetwo": "/assets/projets/projets_desktop/vieuxgrimoire_best.webp"
+            },
+            "tablet": {
+                "pictureone": "/assets/projets/projets_tablette/code.webp",
+                "picturetwo": "/assets/projets/projets_tablette/vieuxgrimoire_best.webp"
+            },
+            "mobile": {
+                "pictureone": "/assets/projets/projets_mobile/code.webp",
+                "picturetwo": "/assets/projets/projets_mobile/vieuxgrimoire_best.webp"
+            }
+        },
+        "github": "https://github.com/SanYoan/GrimoireMySQL",
+        "description": "J'ai repris un ancien projet mon vieux grimoire et je suis passé d'une base de donnée MongoDB a une base de donnée MySQL avec l'ORM sequelize",
+        "skills": [
+            "MySQL",
+            "PHPmyAdmin",
+            "Sequelize"
+        ]
     }
 ]

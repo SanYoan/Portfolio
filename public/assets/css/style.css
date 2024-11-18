@@ -110,8 +110,20 @@ button {
     border: 0;
 }
 
+.download {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
 .downloadCv {
     margin-bottom: 160px;
+}
+
+.downloadCv.downloadLm {
+    line-height: 20px;
+    font-size: 17px;
+    padding: 24px 0px 0px 0px;
 }
 
 html,

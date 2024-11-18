@@ -27,7 +27,7 @@
 .logo-track img {
     width: 100px;
     /* Taille des logos */
-    height: 60px;
+    height: 40px;
     margin: 0 40px;
     /* Espacement entre les logos */
 }
@@ -55,7 +55,22 @@
     }
 
     .logo-slider {
-        height: 60px;
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .logo-track img {
+        width: 60px;
+        /* Taille des logos */
+        height: 30px;
+        margin: 0 20px;
+        /* Espacement entre les logos */
+    }
+
+    .logo-slider {
+        height: 40px;
     }
 
 }
