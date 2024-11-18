@@ -24,8 +24,8 @@ function ContactForm() {
 
     emailjs
       .send(
-        "service_nu1y67c",
-        "template_xhz96ba",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         {
           to_name: "Yoan Sannier",
           from_name: formData.name,
@@ -33,7 +33,7 @@ function ContactForm() {
           subject: formData.subject,
           message: formData.message,
         },
-        "5w2hyq15IBEITHUon"
+        process.env.REACT_APP_EMAILJS_ID
       )
       .then((response) => {
         console.log("Message envoyé avec succès:", response);

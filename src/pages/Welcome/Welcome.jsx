@@ -1,4 +1,3 @@
-import React from "react";
 import Slide from "../../components/Slide/Slide";
 import H2title from "../../components/typingAnimation/TypingAnimation";
 import cvFilePath from "../../../src/assets/download/CV_yoan_SANNIER.pdf";
