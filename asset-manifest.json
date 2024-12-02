@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c23506d7.css",
-    "main.js": "/Portfolio/static/js/main.19f12a49.js",
-    "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
-    "static/media/CV_yoan_SANNIER.pdf": "/Portfolio/static/media/CV_yoan_SANNIER.bf7bc1ca4cdfcc0c0bc3.pdf",
-    "static/media/mySQL.png": "/Portfolio/static/media/mySQL.167c88550478e6f0f85c.png",
-    "static/media/profile.webp": "/Portfolio/static/media/profile.26c8aae5e4f7bb98d0f0.webp",
-    "static/media/Lettre_motivation_SANNIER_Yoan.pdf": "/Portfolio/static/media/Lettre_motivation_SANNIER_Yoan.68ace85a4c65095c026e.pdf",
-    "static/media/redux.png": "/Portfolio/static/media/redux.1edba70acbe0a2484e24.png",
-    "index.html": "/Portfolio/index.html",
-    "main.c23506d7.css.map": "/Portfolio/static/css/main.c23506d7.css.map",
-    "main.19f12a49.js.map": "/Portfolio/static/js/main.19f12a49.js.map",
-    "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
+    "main.css": "/static/css/main.ea1cfc8d.css",
+    "main.js": "/static/js/main.778506b1.js",
+    "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
+    "static/media/CV_yoan_SANNIER.pdf": "/static/media/CV_yoan_SANNIER.bf7bc1ca4cdfcc0c0bc3.pdf",
+    "static/media/mySQL.png": "/static/media/mySQL.167c88550478e6f0f85c.png",
+    "static/media/profile.webp": "/static/media/profile.26c8aae5e4f7bb98d0f0.webp",
+    "static/media/Lettre_motivation_SANNIER_Yoan.pdf": "/static/media/Lettre_motivation_SANNIER_Yoan.68ace85a4c65095c026e.pdf",
+    "static/media/redux.png": "/static/media/redux.1edba70acbe0a2484e24.png",
+    "index.html": "/index.html",
+    "main.ea1cfc8d.css.map": "/static/css/main.ea1cfc8d.css.map",
+    "main.778506b1.js.map": "/static/js/main.778506b1.js.map",
+    "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c23506d7.css",
-    "static/js/main.19f12a49.js"
+    "static/css/main.ea1cfc8d.css",
+    "static/js/main.778506b1.js"
   ]
 }
