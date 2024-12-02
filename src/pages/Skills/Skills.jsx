@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Slide from "../../components/Slide/Slide";
 
 function Skills() {
   useEffect(() => {
@@ -50,7 +51,14 @@ function Skills() {
             <div className="col-md-6">
               <div className="single-skill-content">
                 <div className="barWrapper">
-                  <span className="progressText">Adobe Photoshop<img className="skillImg" src={`${process.env.PUBLIC_URL}/assets/logo_skill/photoshop.png`} alt="photoshop" /></span>
+                  <span className="progressText">
+                    Adobe Photoshop
+                    <img
+                      className="skillImg"
+                      src={`${process.env.PUBLIC_URL}/assets/logo_skill/photoshop.png`}
+                      alt="photoshop"
+                    />
+                  </span>
                   <div className="single-progress-txt">
                     <div className="progress">
                       <div
@@ -66,7 +74,14 @@ function Skills() {
                   </div>
                 </div>
                 <div className="barWrapper">
-                  <span className="progressText">PowerPoint<img className="skillImg" src={`${process.env.PUBLIC_URL}/assets/logo_skill/powerpoint.png`} alt="Powerpoint" /></span>
+                  <span className="progressText">
+                    PowerPoint
+                    <img
+                      className="skillImg"
+                      src={`${process.env.PUBLIC_URL}/assets/logo_skill/powerpoint.png`}
+                      alt="Powerpoint"
+                    />
+                  </span>
                   <div className="single-progress-txt">
                     <div className="progress">
                       <div
@@ -82,7 +97,19 @@ function Skills() {
                   </div>
                 </div>
                 <div className="barWrapper">
-                  <span className="progressText">Node.Js + Express<img className="skillImg" src={`${process.env.PUBLIC_URL}/assets/logo_skill/node.png`} alt="Node.Js" /><img className="skillImgE" src={`${process.env.PUBLIC_URL}/assets/logo_skill/express.png`} alt="express" /></span>
+                  <span className="progressText">
+                    Node.Js + Express
+                    <img
+                      className="skillImg"
+                      src={`${process.env.PUBLIC_URL}/assets/logo_skill/node.png`}
+                      alt="Node.Js"
+                    />
+                    <img
+                      className="skillImgE"
+                      src={`${process.env.PUBLIC_URL}/assets/logo_skill/express.png`}
+                      alt="express"
+                    />
+                  </span>
                   <div className="single-progress-txt">
                     <div className="progress">
                       <div
@@ -98,7 +125,14 @@ function Skills() {
                   </div>
                 </div>
                 <div className="barWrapper">
-                  <span className="progressText">API Rest<img className="skillImg" src={`${process.env.PUBLIC_URL}/assets/logo_skill/API.png`} alt="API" /></span>
+                  <span className="progressText">
+                    API Rest
+                    <img
+                      className="skillImg"
+                      src={`${process.env.PUBLIC_URL}/assets/logo_skill/API.png`}
+                      alt="API"
+                    />
+                  </span>
                   <div className="single-progress-txt">
                     <div className="progress">
                       <div
@@ -119,7 +153,14 @@ function Skills() {
             <div className="col-md-6">
               <div className="single-skill-content">
                 <div className="barWrapper">
-                  <span className="progressText">HTML 5<img className="skillImg" src={`${process.env.PUBLIC_URL}/assets/logo_skill/html.png`} alt="html" /></span>
+                  <span className="progressText">
+                    HTML 5
+                    <img
+                      className="skillImg"
+                      src={`${process.env.PUBLIC_URL}/assets/logo_skill/html.png`}
+                      alt="html"
+                    />
+                  </span>
                   <div className="single-progress-txt">
                     <div className="progress">
                       <div
@@ -135,7 +176,14 @@ function Skills() {
                   </div>
                 </div>
                 <div className="barWrapper">
-                  <span className="progressText">CSS 3<img className="skillImg" src={`${process.env.PUBLIC_URL}/assets/logo_skill/css.png`} alt="CSS" /></span>
+                  <span className="progressText">
+                    CSS 3
+                    <img
+                      className="skillImg"
+                      src={`${process.env.PUBLIC_URL}/assets/logo_skill/css.png`}
+                      alt="CSS"
+                    />
+                  </span>
                   <div className="single-progress-txt">
                     <div className="progress">
                       <div
@@ -151,7 +199,14 @@ function Skills() {
                   </div>
                 </div>
                 <div className="barWrapper">
-                  <span className="progressText">JavaScript<img className="skillImg" src={`${process.env.PUBLIC_URL}/assets/logo_skill/js.png`} alt="JavaScript" /></span>
+                  <span className="progressText">
+                    JavaScript
+                    <img
+                      className="skillImg"
+                      src={`${process.env.PUBLIC_URL}/assets/logo_skill/js.png`}
+                      alt="JavaScript"
+                    />
+                  </span>
                   <div className="single-progress-txt">
                     <div className="progress">
                       <div
@@ -167,7 +222,14 @@ function Skills() {
                   </div>
                 </div>
                 <div className="barWrapper">
-                  <span className="progressText">React.js<img className="skillImg" src={`${process.env.PUBLIC_URL}/assets/logo_skill/react.png`} alt="react" /></span>
+                  <span className="progressText">
+                    React.js
+                    <img
+                      className="skillImg"
+                      src={`${process.env.PUBLIC_URL}/assets/logo_skill/react.png`}
+                      alt="react"
+                    />
+                  </span>
                   <div className="single-progress-txt">
                     <div className="progress">
                       <div
@@ -187,6 +249,7 @@ function Skills() {
           </div>
         </div>
       </div>
+      <Slide />
     </section>
   );
 }

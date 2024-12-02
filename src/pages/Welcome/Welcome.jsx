@@ -2,7 +2,7 @@ import Slide from "../../components/Slide/Slide";
 import H2title from "../../components/typingAnimation/TypingAnimation";
 import cvFilePath from "../../../src/assets/download/CV_yoan_SANNIER.pdf";
 import lmFilePath from "../../../src/assets/download/Lettre_motivation_SANNIER_Yoan.pdf";
-import AnimatedBackground from "../../components/AnimatedBackground/AnimatedBackground.jsx"; // Assurez-vous que le chemin est correct
+import AnimatedBackground from "../../components/AnimatedBackground/AnimatedBackground.jsx";
 
 function Welcome() {
   return (

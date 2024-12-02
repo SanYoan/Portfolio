@@ -79,8 +79,8 @@
                 "picturetwo": "/assets/projets/projets_mobile/nina_filter.webp"
             }
         },
-        "urlsite": "/assets/projets/projets_desktop/Nina-Carducci-p4/",
-        "github": "/assets/projets/projets_desktop/Nina-Carducci-p4",
+        "urlsite": "https://sanyoan.github.io/Nina-Carducci-p4/",
+        "github": "https://github.com/SanYoan/Nina-Carducci-p4",
         "description": "En tant que développeur front-end, j'ai amélioré le site de la photographe Nina Carducci. J'ai optimisé la vitesse du site avec Lighthouse, assuré son accessibilité à tous les utilisateurs, intégré des pratiques de SEO technique pour améliorer sa visibilité, et mis à jour le contenu avec de nouvelles photographies.",
         "skills": [
             "Lighthouse",
